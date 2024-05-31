@@ -1,0 +1,28 @@
+/* InfoBox.css */
+.support-bubble {
+  background: #f2f2f2;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 40px;
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: flex-start; /* Align items to the start (left) */
+  min-width: 350px;
+}
+
+.support-item {
+  display: flex;
+  align-items: center; /* Align the image and text vertically */
+  margin-bottom: 10px; /* Add some space between items */
+}
+
+.support-item img {
+  margin-right: 10px; /* Add some space between the image and text */
+  width: 25px;
+  height: 25px; /* Ensure the height is set correctly */
+}
+
+.support-item p {
+  font-weight: bold;
+}

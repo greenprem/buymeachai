@@ -1,0 +1,195 @@
+/* 
+@font-face {
+    font-family: 'Goth';
+    src: url('/fonts/gith.ttf') format('truetype');
+}
+
+body {
+    font-family: "Goth";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+    padding: 20px;
+} */
+
+.container {
+    background: #ececec;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2vw;
+    max-width: 5    0vw;
+    /* width: 50%; */
+    box-sizing: border-box;
+    min-width: 200px; /* Minimum width for container */
+    
+}
+
+.title {
+    font-size: 1.5em;
+    margin: 1.5vw;
+    font-weight: bold;
+}
+
+.coffee-selection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw;
+    margin-bottom: 2vw;
+    background-color: #e0ddda;
+    border-radius: 20px;
+}
+
+.coffee-selection h1 {
+    margin: 0;
+    font-size: 3vw;
+}
+
+.coffee-selection p {
+    margin: 0;
+    font-size: 2vw;
+}
+
+.coffee-selection .options {
+    display: flex;
+    gap: 1vw;
+}
+
+.coffee-selection .options span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    border: 1px solid #7b4343;
+    cursor: pointer;
+    outline: none;
+}
+
+.coffee-selection .options span.active {
+    background: #7c5952;
+    color: white;
+    border: none;
+}
+
+.textarea-container {
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+}
+
+.textarea-container textarea {
+    width: 100%;
+    padding: 1vw;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    resize: none;
+    background-color: #edeaea;
+    outline: none;
+}
+
+.support-button {
+    display: block;
+    width: 100%;
+    padding: 1.5vw;
+    background: #7c5952;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-weight: bold;
+}
+
+.support-button:hover {
+    background: #e14b2e;
+}
+
+.recent-supporters {
+    margin-top: 2vw;
+}
+
+.supporter {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5vw;
+}
+
+.supporter img {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    margin-right: 1vw;
+}
+
+.supporter .supporter-info {
+    background: none;
+    padding: 1vw;
+    border-radius: 8px;
+    flex-grow: 1;
+}
+
+.supporter .supporter-info p {
+    margin: 0.5vw;
+    font-size: 1.5vw;
+}
+
+.supporter .supporter-info p:first-child {
+    font-weight: bold;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 600px) {
+    .container {
+        padding: 4vw;
+        max-width: 90vw;
+    }
+
+    .title {
+        font-size: 1.2em;
+    }
+
+    .coffee-selection {
+        padding: 2vw;
+    }
+
+    .coffee-selection h1 {
+        font-size: 4vw;
+    }
+
+    .coffee-selection p {
+        font-size: 3vw;
+    }
+
+    .coffee-selection .options span {
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .textarea-container textarea {
+        padding: 2vw;
+    }
+
+    .support-button {
+        padding: 2vw;
+        font-size: 0.9em;
+    }
+
+    .recent-supporters {
+        margin-top: 3vw;
+    }
+
+    .supporter img {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .supporter .supporter-info p {
+        font-size: 2vw;
+    }
+}

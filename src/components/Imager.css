@@ -1,0 +1,33 @@
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-hero {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.image-hero img {
+    width: 500px;
+    border-radius: 30px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    background-color: rgb(248, 245, 243);
+}
+
+.small-image {
+    padding: 0 20px; /* Adjust padding as needed */
+}
+
+#first{
+    padding: 0;
+}
+
+#third{
+    margin-left: 20px;
+}
+#thimg {
+    width: 200px;
+}

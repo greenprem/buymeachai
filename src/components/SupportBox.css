@@ -1,0 +1,129 @@
+.support-box {
+    background: #faf8f2;
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .support-title {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .support-description {
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .support-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .support-bubble {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 40px;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: flex-start; /* Align items to the start (left) */
+    min-width: 350px;
+  }
+
+  .support-item {
+    display: flex;
+    align-items: center; /* Align the image and text vertically */
+    margin-bottom: 10px; /* Add some space between items */
+  }
+
+  .support-item img {
+    margin-right: 10px; /* Add some space between the image and text */
+  }
+
+  .support-item p{
+    font-weight: bold;
+  }
+
+  .support-bubble #a{
+    height: 250px;
+    width: 20px;
+  }
+  
+  .support-bubble img {
+    width: 25px;
+    height: 25 px;
+    margin-right: 10px;
+  }
+  
+  .support-main {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    margin-left: 7rem;
+    text-align: left;
+    width: 350px;
+    height: 250px;
+  }
+  
+  .support-actions {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .coffee-icon {
+    font-size: 1.5rem;
+  }
+  
+  .coffee-count {
+    background: #f1f1f1;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .support-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .support-button {
+    background: #ff813f;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .support-button:hover {
+    background: #e26e2e;
+  }
+  
+  #payyee{
+    width: 400px;
+    height: 400px;
+    background-color: none;
+    border: none;
+    box-shadow: none;
+  }
