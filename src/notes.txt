@@ -1,0 +1,19 @@
+fetch("https://api.penpencil.co/v1/user-bank-details/upi-verify", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTc5MjMxNjYuODA4LCJkYXRhIjp7Il9pZCI6IjYzMzA3NzYwMWUzNGUwMDAxODU1ZjhlMCIsInVzZXJuYW1lIjoiNzM1NDIyNTQ2MiIsImZpcnN0TmFtZSI6IkFyeWFuIiwibGFzdE5hbWUiOiJBZ3Jhd2FsIiwib3JnYW5pemF0aW9uIjp7Il9pZCI6IjVlYjM5M2VlOTVmYWI3NDY4YTc5ZDE4OSIsIndlYnNpdGUiOiJwaHlzaWNzd2FsbGFoLmNvbSIsIm5hbWUiOiJQaHlzaWNzd2FsbGFoIn0sImVtYWlsIjoiYXJ5YW5ob21lb2ZmaWNpYWxAZ21haWwuY29tIiwicm9sZXMiOlsiNWIyN2JkOTY1ODQyZjk1MGE3NzhjNmVmIl0sImNvdW50cnlHcm91cCI6IklOIiwidHlwZSI6IlVTRVIifSwiaWF0IjoxNzE3MzE4MzY2fQ.mG_FSSH6hT3gjxadWruVq0FCdN3P9hH2vy5B5tz3iDs",
+    "client-id": "5eb393ee95fab7468a79d189",
+    "client-type": "WEB",
+    "client-version": "5.0.1",
+    "content-type": "application/json",
+    "integration-with": "",
+    "randomid": "ce84e3ec-157a-437f-bdc6-1e3a4253dc84",
+    "sec-ch-ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://www.pw.live/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "{\"vpa\":\"9868367641@upi\"}",
+  "method": "POST"
+});

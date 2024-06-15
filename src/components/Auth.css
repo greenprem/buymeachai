@@ -1,0 +1,264 @@
+.bmc-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .bmc-left {
+    width: 50%;
+    background-color:rgb(74, 56, 30);;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  
+  .bmc-header {
+    display: flex;
+    align-items: center;
+    margin-top: 20%; /* Adjust this value to move the h1 vertically */
+  }
+  
+  .bmc-logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .bmc-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .bmc-memberships {
+    margin-top: 50px;
+  }
+  
+  .bmc-memberships h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .bmc-memberships p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .bmc-membership-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bmc-card-content {
+    max-width: 60%;
+  }
+  
+  .bmc-card-content h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .bmc-card-content p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .bmc-card-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .bmc-card-content ul li {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  .bmc-join-btn {
+    background-color: #FFDD00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .bmc-card-stats {
+    text-align: right;
+  }
+  
+  .bmc-card-stats p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .bmc-right {
+    width: 20%;
+    background: rgb(233, 226, 210);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+  
+  .bmc-signup {
+    width: 80%;
+    max-width: 400px;
+  }
+  .bmc-signup a{
+    color: inherit;
+  }
+  
+  .bmc-signup p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .bmc-signup h2 {
+    font-size: 30px;
+    color: #333;
+    margin: 20px 0 10px;
+  }
+  
+  .bmc-username {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .bmc-username span {
+    background: #eee;
+    padding: 10px;
+    border:none
+  }
+  
+  .bmc-username input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #eee;
+  }
+  
+  .bmc-signup-btn {
+    background-color: #926b45;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 40%;
+    border-radius: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Goth';
+  }
+  
+  .bmc-terms {
+    font-size: 12px;
+    color: #999;
+    margin-top: 20px;
+  }
+  
+  .bmc-terms a {
+    color: #333;
+  }
+  
+  .bmc-container {
+    display: flex;
+    height: 100vh;
+    font-family: 'Goth';
+  }
+  
+  .bmc-left {
+    width: 50%;
+    background-color: rgb(239, 235, 229);
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .bmc-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20%; /* Adjust this value to move the h1 vertically */
+  }
+  
+  .bmc-logo {
+    height: 300px;
+    margin-bottom: 20px; /* Space between the logo and the h1 */
+  }
+  
+  .bmc-header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #AB885b;
+    
+  }
+  
+  .bmc-signup p:first-child {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 20px;
+  }
+  .bmc-container {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 50px; /* Adjust this value as needed */
+    box-sizing: border-box;
+  }
+  
+  .bmc-terms {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 10px; /* Add some padding if needed */
+    text-align: center; /* Center the text horizontally */
+  }
+  .custom-input-box {
+    border-radius: 30px;
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 60px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    padding: 0 20px; /* Add some padding for the input field */
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  .custom-input-box .prefix {
+    color: #333; /* Adjust the text color as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    margin-right: 5px; /* Add some spacing between the prefix and input */
+    user-select: none; /* Prevent the text from being selectable */
+  }
+  
+  .custom-input-box input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #333; /* Adjust the text color as needed */
+  }

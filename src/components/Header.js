@@ -12,7 +12,7 @@ const Header = () => {
                 </ul>
                 <div className="auth-buttons">
                     <a href="#" className="login">Log in</a>
-                    <a href="#" className="signup">Sign up</a>
+                    <a href="/join" className="signup">Sign up</a>
                 </div>
             </nav>
         </header>

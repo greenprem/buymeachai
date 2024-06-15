@@ -1,0 +1,33 @@
+/* .bmc-last{
+    width: 10%;
+}
+.bmc-left{
+    width:25%;
+    justify-content: flex-start;
+}
+.bmc-right{
+    align-items: flex-start;
+    padding: 50px;
+} */
+.boxespanel{
+    margin-top: 50px;
+}
+#topinfo{
+    display: flex;
+}
+#side{
+    margin-bottom: 0;
+    background-color: transparent;
+}
+#side:hover{
+    background-color: rgb(237, 229, 218);
+    cursor: pointer;
+}
+#pfp{
+    margin-top: 10px;
+}
+#item1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}

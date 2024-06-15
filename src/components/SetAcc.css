@@ -1,0 +1,19 @@
+#pfp{
+    border-radius: 50px;
+    background-color: rgb(228, 223, 211);;
+}
+#abouttext{
+    height: 150px;
+    resize: none;
+  overflow: auto;
+}
+.custom-input-box textarea {
+    flex: 1 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    resize: none;
+    height: 100px;
+}
